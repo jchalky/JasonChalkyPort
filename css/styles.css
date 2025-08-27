@@ -11044,3 +11044,33 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+/* Custom Improvements */
+html {
+  scroll-behavior: smooth;
+}
+
+.portfolio-item {
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  transition: all 0.3s ease;
+}
+
+.masthead-avatar {
+  transition: transform 0.3s ease;
+}
+
+.masthead-avatar:hover {
+  transform: scale(1.05);
+}
+
+/* Contact section styling */
+#contact {
+  background-color: #f8f9fa;
+}
